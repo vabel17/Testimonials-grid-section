@@ -163,13 +163,14 @@ p.weak {
 
     main {
         grid-template-columns: 1fr;
-        grid-template-rows: fit-content;
+        grid-template-rows: auto;
         grid-template-areas: 
             "card-1"
             "card-2"
             "card-3"
             "card-4"
             "card-5";
+
         margin-block: 4rem;
     }
 
