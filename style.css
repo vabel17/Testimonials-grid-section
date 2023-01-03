@@ -63,7 +63,7 @@ main {
     gap: 2rem;
 
     max-width: 70rem;
-    margin: 4rem 2rem;
+    margin-inline: 2rem;
 }
 
 .card {
@@ -157,10 +157,6 @@ p.weak {
 
 @media screen and (max-width: 950px) {
 
-    body {
-        align-items: initial;
-    }
-
     main {
         grid-template-columns: 1fr;
         grid-template-rows: fit-content;
@@ -170,6 +166,7 @@ p.weak {
             "card-3"
             "card-4"
             "card-5";
+        margin-block: 4rem;
     }
 
     footer {
